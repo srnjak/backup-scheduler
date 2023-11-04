@@ -1,4 +1,4 @@
-bash/backup-scheduler:usr/share/backup-scheduler
+bash/backup-scheduler:usr/bin
 
 # Configuration examples
 doc/examples/*:usr/share/doc/backup-scheduler/examples
