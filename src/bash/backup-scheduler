@@ -3,7 +3,7 @@
 # Usage function
 usage() {
   cat <<EOF
-Usage: $(basename "$0") [-r|--retention <policy>] [-c|--config <file>]
+Usage: $(basename "$0") [-e|--execute <command>] [-r|--retention <policy>] [-c|--config <file>]
        $(basename "$0") -h|--help
   -e, --execute <command>   Command to execute for backup
   -r, --retention <policy>  Backup retention policy (daily, weekly, monthly, yearly)
