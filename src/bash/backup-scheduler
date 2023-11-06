@@ -91,6 +91,6 @@ for backup in $(read_backups "$RETENTION"); do
         mail_flag=""
     fi
 
-    $COMMAND --retention "$FREQUENCY" $mail_flag "$backup" \
+    $COMMAND --retention "$RETENTION" $mail_flag "$backup" \
             || echo "Error: The backup  '$COMMAND' failed for $backup"
 done
