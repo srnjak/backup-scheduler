@@ -1,0 +1,7 @@
+Package: {{package}}
+Version: {{version}}
+Architecture: all
+Maintainer: {{maintainer}}
+Depends:
+Suggests:
+Description: {{description}}
