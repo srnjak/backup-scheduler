@@ -1,4 +1,4 @@
-# Files Backup Scheduler
+# The Backup Scheduler
 
 This is a bash script for running backups periodically according to the specified retention policy (daily, weekly, monthly, or yearly) and a list of backup names provided in a file. The script is intended to be run from a cronjob.
 
